@@ -146,7 +146,7 @@ with gr.Blocks(title="IndexTTS Demo") as demo:
         with gr.Row():
             os.makedirs("prompts", exist_ok=True)
             prompt_audio = gr.Audio(label="参考音频",
-                                    value="./speakers/中文-英语兔.wav",
+                                    value="./speakers/中文-pu.mp3",
                                     key="prompt_audio",
                                     sources=["upload", "microphone"],
                                     type="filepath")
